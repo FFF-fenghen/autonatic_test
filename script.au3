@@ -1,0 +1,5 @@
+ControlFocus("打开","","Edit1")
+WinWait("[CLASS:#32770]","",3)
+ControlSetText("打开","","Edit1","E:\vedio\hengbna1280_720\5.mp4")
+Sleep(1000)
+ControlClick("打开","","Button1")
