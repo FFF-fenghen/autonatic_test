@@ -48,7 +48,7 @@ class TestBaidu(unittest.TestCase):
         self.baidu_search(search_key)
         self.assertEqual(self.driver.title, search_key + '_百度搜索')
 
-    @file_data('ddt_data_file.json')
+    @file_data('./test_case2/ddt_data_file.json')
     def test_search4(self, search_key):
         print('test class 4:', search_key)
         self.baidu_search(search_key)
